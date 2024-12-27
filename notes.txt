@@ -4,3 +4,6 @@ pip install -r requirements.txt
 
 
 ------------------------------
+issue: model is trained on TF 2.15 but when deployed in streamlit cloud it unable to find the tf 2.15 version.
+
+Next thing is to train the model with tf latest version and save the model, then it will work on streamlit cloud
